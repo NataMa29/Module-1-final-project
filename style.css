@@ -174,5 +174,48 @@ body {
         height: 29.36px;
         margin: 10px 15px 23px 19px;
     }
+}
 
+.start-date {
+    background-color: #9DC9C8;
+    width: 1440px;
+    height: 780px;
+}
+h2 {
+    font-family: Roboto Slab;
+    font-weight: 700;
+    font-size: 55px;
+}
+.wrapper-start-date {
+    margin-top: 179px;
+    margin-left: 122px;
+    margin-bottom: 185px;
+}
+.price-line {
+    font-size: 25px;
+    margin-top: 42px;
+}
+.price {
+    font-size: 80px;
+}
+.info-boxes {
+    display: flex;
+    margin-top: 84px;
+}
+.info-boxes-name {
+    font-size: 25px;
+    margin-bottom: 9px;
+}
+.info-boxes-content {
+    font-size: 18px;
+    margin-top: 9px;
+}
+.first-infobox {
+    width: 294px;
+    height: 111px;
+}
+.second-infobox {
+    width: 322px;
+    height: 111px;
+    margin-left: 70px;
 }
