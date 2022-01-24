@@ -14,6 +14,11 @@ body{
     width: 1440px;
     height: 780px;
 }
+h2 {
+    font-family: Roboto Slab;
+    font-weight: 700;
+    font-size: 55px;
+}
 .wrapper-start-date {
     margin-top: 179px;
     margin-left: 122px;
@@ -36,6 +41,7 @@ body{
 }
 .info-boxes-content {
     font-size: 18px;
+    margin-top: 9px;
 }
 .first-infobox {
     width: 294px;
