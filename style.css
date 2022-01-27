@@ -1,15 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 
-*{
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
     box-sizing: border-box;
     margin:0;
     padding:0;
 }
 
-body{
+body {
     font-family: 'Roboto', sans-serif;
 }
+
 main {
     position: relative;
     width: 1440px;
@@ -213,4 +216,323 @@ li:before {
         margin-left: 0px;
         margin-top: 24px;
     }
+
+.wrapper-programm {
+    margin: 0 auto;
+    max-width: 1440px;
+    min-width: 300px;
+    padding-bottom: 131px;
+}
+
+.wrapper-programm h2 {
+    height: 93px;
+    width: 905px;
+    font-family: Roboto Slab;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-left: 40px;
+}
+
+.photo-programm {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 95px;
+}
+
+.rectangle {
+    max-width: 399px;
+    border-radius: 30px;
+    box-shadow: 1px 1px 15px 0px #00000040;
+    margin: 0 37px 41px 0;
+}
+
+.rectangle h4 {
+    height: 39px;
+    width: 365px;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 19px;
+    margin-top: 11px;
+}
+
+.rectangle p {
+    margin: 32px 15px 23px 19px;
+    font-family: Roboto;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+@media only screen and (max-width: 835px) and (min-width: 376px) {
+
+    .programm{
+        margin-left: 48px;
+    }
+    .wrapper-programm {
+        max-height: 3800px;
+        max-width: 835px;
+        margin: 0;
+        padding-bottom: 0;
+    }
+
+    .wrapper-programm h2 {
+        height: 53px;
+        width: 524px;
+        font-family: Roboto Slab;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-left: 22px;
+    }
+
+    .photo-programm {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 28.85px;
+        margin-top: 55px;
+    }
+
+    .rectangle {
+        max-width: 231px;
+        height: 190px;
+        border-radius: 30px;
+        box-shadow: 1px 1px 15px 0px #00000040;
+        margin: 0 21.43px 23.75px 0;
+    }
+
+    img {
+        height: 92.67px;
+    }
+
+    .rectangle h4 {
+        height: 22.6px;
+        width: 211.4px;
+        font-size: 17px;
+        letter-spacing: 0em;
+        margin-left: 11.5px;
+        margin-top: 6.4px;
+    }
+
+    .rectangle p {
+        margin: 13.53px 8.69px 13.32px 11px;
+        font-size: 14px;
+        line-height: 18.2px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width: 375px) and (min-width: 300px){
+    .wrapper-programm {
+        max-height: 4524px;
+        max-width: 375px;
+        margin: auto;
+        padding: 0 34px;
+    }
+
+    .wrapper-programm h2 {
+        height: 43px;
+        width: 421px;
+        font-size: 26px;
+        line-height: 1;
+        margin-left: 0;
+    }
+
+    .photo-programm {
+        display: flex;
+        flex-direction: column;
+        margin: 35px 94px 0 94px;
+    }
+
+    .rectangle {
+        width: 185px;
+        height: 152.84px;
+        border-radius: 30px;
+        box-shadow: 1px 1px 15px 0px #00000040;
+    }
+
+    .img {
+        height: 74px;
+    }
+
+    .rectangle h4 {
+        height: 18.17px;
+        max-width: 170px;
+        font-size: 17px;
+        letter-spacing: 0em;
+        font-size: 14px;
+    }
+
+    .rectangle p {
+        font-size: 12px;
+        line-height: 1;
+        text-align: left;
+        max-width: 170px;
+        height: 29.36px;
+        margin: 10px 15px 23px 19px;
+    }
+}
+
+.wrapper-reviews{
+    margin: auto;
+    background-color:#EFEFEF;
+    padding-top: 91px;
+    max-width: 1440;
+    max-height: 780px;
+}
+
+.wrapper-reviews h2{
+height: 93px;
+max-width: 987px;
+left: 121px;
+font-family: Roboto Slab;
+font-size: 55px;
+font-style: normal;
+font-weight: 700;
+line-height: 56px;
+letter-spacing: 0em;
+text-align: left;
+margin: 0 331px 34px 122px;
+}
+
+
+.content-reviews{
+    max-width: 791px;
+    max-height: 451px;
+    border-radius: 30px;
+    margin: 0 523px 121px 126px;
+    position: relative;
+}
+
+.user-photo{
+    max-width: 573px;
+    height: 169px;
+    position: absolute;
+    left: 180px;
+    margin-top: 235px;
+}
+
+@media only screen and (max-width: 835px) and (min-width: 376px){
+    .wrapper-reviews{
+        max-width: 835px;
+        padding-top: 52px;
+    }
+
+    .wrapper-reviews h2{
+        height: 53.86px;
+        max-width: 571.64px;
+        left: 70px;
+        font-size: 32px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin: 0 191.7px 19.69px 70.66px;
+        }
+
+        .content-reviews{
+            max-width: 7458.12px;
+            height: 261.2px;
+            border-radius: 17.38px;
+            margin: 0 302.9px 64.29px 72.97px;
+            position: relative;
+        }
+
+        .user-photo{
+            max-width: 331.86px;
+            height: 97.88px;
+            position: absolute;
+            left: 100px;
+            margin-top: 140px;
+        }
+}
+
+@media only screen and (max-width: 375px) and (min-width: 300px){
+
+    .wrapper-reviews{
+        max-width: 375px;
+        max-height: 423px;
+        padding: 42px 36px 53px 36px;
+    }
+
+    .wrapper-reviews h2{
+        max-height: 69px;
+        max-width: 257px;
+       line-height: 1;
+        font-size: 26px;
+        text-align: left;
+        margin: 0 47px 11px 0;
+        }
+        .content-reviews{
+            max-width: 308px;
+            max-height: 248px;
+            border-radius: 13.98px;
+            margin: 0;
+            position: relative;
+        }
+        
+         .user-photo{
+            max-width: 258.12px;
+            max-height: 84px;
+            position: absolute;
+            left: 60px;
+            margin-top: -100px;
+        } 
+}
+
+.start-date {
+    background-color: #9DC9C8;
+    width: 1440px;
+    height: 780px;
+}
+h2 {
+    font-family: Roboto Slab;
+    font-weight: 700;
+    font-size: 55px;
+}
+.wrapper-start-date {
+    margin-top: 179px;
+    margin-left: 122px;
+    margin-bottom: 185px;
+}
+.price-line {
+    font-size: 25px;
+    margin-top: 42px;
+}
+.price {
+    font-size: 80px;
+}
+.info-boxes {
+    display: flex;
+    margin-top: 84px;
+}
+.info-boxes-name {
+    font-size: 25px;
+    margin-bottom: 9px;
+}
+.info-boxes-content {
+    font-size: 18px;
+    margin-top: 9px;
+}
+.first-infobox {
+    width: 294px;
+    height: 111px;
+}
+.second-infobox {
+    width: 322px;
+    height: 111px;
+    margin-left: 70px;
 }
