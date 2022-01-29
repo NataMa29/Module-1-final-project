@@ -53,9 +53,3 @@ h2 {
     margin-left: 70px;
     max-width: 294px;
 }
-@media (max-width: 991px) {
-    main {
-    width: 100%;
-    min-width: 0px;
-    }
-        }
