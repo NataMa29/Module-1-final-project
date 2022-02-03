@@ -262,8 +262,7 @@ h1{
 
 
 .format-wrapper {
-    max-width: 1221px;
-    min-width: 835px;
+    max-width: 1280px;
     margin: auto;
     padding: 60px 0px;
 }
@@ -273,10 +272,10 @@ h1{
 }
 
  .formatlessons {
-    margin-bottom:105px ;
+    margin-bottom:115px ;
     font-family: Roboto Slab;
     font-weight: 700;
-    font-size: 37px;
+    font-size: 55px;
 }
 
 .blockweb {
@@ -286,7 +285,7 @@ h1{
     }
 
 .webfirst {
-    width: 281px;
+    max-width: 281px;
     font-size: 18px;
     margin-top: 5px;
 }
@@ -297,15 +296,13 @@ h1{
     font-style: normal;
     font-weight: 700;
     line-height: 32px;
-    letter-spacing: 0em;
-    text-align: left;
     color: #1E4681;
 ;
 }
 
 .knowledge {   
     width: 667px;
-    margin-top:231px;
+    margin-top:230px;
     font-family: Roboto Slab;
     font-weight: 700;
     font-size: 55px;
@@ -315,7 +312,7 @@ h1{
     
     max-width: 661px;
     font-size: 23px;
-    margin-top: 48px;
+    margin-top: 50px;
 
 }
 ul {
@@ -332,49 +329,48 @@ li:before {
     font-weight: bold;
 }
 
-@media(max-width:834px) {
+@media(max-width:1279px) {
     .format-wrapper {
-        min-width: 395px;
-        margin: auto;
-       
-    }
+        min-width: 992px;
+    }    
     
-  .formatlessons{
+  .formatlessons h2{
       width: 386px;
-      font-size: 18px;
-      margin-bottom: 51px;
+      font-size: 43px;
+      
   }
   .blockweb {
     display: flex;
-    max-width: 465px;
+    max-width: 880px;
     justify-content: space-between;
+    margin-top:-30px;
+    
     }
   
   
   .web {
-      font-size: 13px;
+      font-size: 23px;
       
   }
   .webfirst {
-      font-size:8px;
-      width: 130px;
-      margin-top:-4px;
+      font-size:17px;
+      max-width: 270px;
+
+  
   }
   .ulul {
-      font-size: 14px;
-      width: 383px;
-      height: 216px;
-      margin-top:25px ;
+      max-width: 400px;
+      margin-top:28px ;
 
   }
   .knowledge {
-      margin-top:104px;
-      font-size: 27px;
+      margin-top:135px;
+      font-size: 43px;
       
   }
   li {
       line-height: 150%;
-      font-size:11px;
+      font-size:17px;
     
   }
   
@@ -386,45 +382,51 @@ li:before {
         font-weight: bold;
     }
 }
-@media (max-width: 394px)  {
-   
-    .format-wrapper {
-        margin: auto;
-        min-width: 300px;
+@media (max-width: 991px)  {
+     
+    .format {
+       margin-left: 60px; 
+       min-width: 320px; 
+    
     }
     
     .blockweb {
         flex-direction: column;
-        height: 223px;
+        height: 260px;
         justify-content: space-between;    
     }
 
-    .formatlessons{   
-        margin-bottom: 20px;
-        font-size: 18px;
+    .formatlessons {   
+        margin-bottom:70px;   
+       
+    }
+    .formatlessons h2 {
+        font-size: 28px;
     }
     
     .web {
-        font-size: 12px;
+        font-size: 16px;
         
     }
     .webfirst {
-        font-size:10px;
-        width: 180px;  
+        font-size:14px;
+        width: 240px;  
+        margin-top:0px;
     }
 
     .knowledge {
-      margin-top:77px;
-      font-size: 27px;
+      margin-top:80px;
+      font-size: 28px;
       }
 
     .ulul {
-        width: 260px;
+        max-width: 300px;
         margin-top:22px ;
+        
     }
     
     li {
-        font-size: 11px; 
+        font-size: 13px; 
     }
 
     li:before {
