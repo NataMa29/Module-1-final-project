@@ -629,9 +629,19 @@ margin: 0 331px 34px 122px;
     font-size: 20px;
 }
 
-.user-photo{
-    max-width: 573px;
-    margin-top: 20px;
+.name-photo{
+    display: flex;
+    padding: 30px 30px 0 30px;
+    gap: 0 30px;
+}
+
+.name-fb p{
+font-family: Roboto Slab;
+font-size: 30px;
+font-weight: 700;
+line-height: 30px;
+line-height: 101%;
+padding: 30px 0;
 }
 
 @media only screen and (max-width: 835px) and (min-width: 376px){
@@ -668,9 +678,18 @@ margin: 0 331px 34px 122px;
             font-size: 12px;
         }
         
-        .user-photo{
-            max-width: 331px;
+        .name-photo{
+            gap: 0 17px;
         }
+        
+        .name-fb p{
+        font-family: Roboto Slab;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 30px;
+        line-height: 101%;
+        padding: 30px 0;
+         }
 }
 
 @media only screen and (max-width: 375px) and (min-width: 300px){
