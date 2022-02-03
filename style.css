@@ -712,6 +712,7 @@ margin: 0 331px 34px 122px;
 .start-date {
     background-color: #9DC9C8;
     width: 100%;
+    position: absolute;
 }
 h2 {
     font-family: Roboto Slab;
@@ -725,14 +726,15 @@ h2 {
 }
 .price-line {
     font-size: 25px;
-    margin-top: 42px;
+    font-weight: 400;
+    margin-top: 55px;
 }
 .price {
     font-size: 80px;
 }
 .info-boxes {
     display: flex;
-    margin-top: 84px;
+    margin-top: 60px;
     max-width: 668px;
 }
 .info-boxes-name {
