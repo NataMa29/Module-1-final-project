@@ -329,48 +329,47 @@ li:before {
     font-weight: bold;
 }
 
-@media(max-width:1279px) {
-    .format-wrapper {
-        min-width: 992px;
-    }    
+@media screen and (min-width: 992px) and (max-width: 1279px) {
     
-  .formatlessons h2{
+    .formatlessons {
+        margin-bottom: 60px;
+    }
+    .formatlessons h2{
       width: 386px;
-      font-size: 43px;
+      font-size:32px;
       
   }
   .blockweb {
     display: flex;
-    max-width: 880px;
+    max-width: 570px;
     justify-content: space-between;
-    margin-top:-30px;
     
     }
   
   
   .web {
-      font-size: 23px;
+      font-size: 15px;
       
   }
   .webfirst {
-      font-size:17px;
-      max-width: 270px;
+      font-size:11px;
+      max-width: 153px;
+      margin-top:0px;
 
-  
   }
   .ulul {
-      max-width: 400px;
+      max-width: 384px;
       margin-top:28px ;
 
   }
   .knowledge {
-      margin-top:135px;
-      font-size: 43px;
+      margin-top:110px;
+      font-size: 32px;
       
   }
   li {
       line-height: 150%;
-      font-size:17px;
+      font-size:14px;
     
   }
   
@@ -382,51 +381,48 @@ li:before {
         font-weight: bold;
     }
 }
-@media (max-width: 991px)  {
+@media screen and (min-width: 320px) and (max-width: 991px)  {
      
     .format {
-       margin-left: 60px; 
-       min-width: 320px; 
-    
+       margin-left: 60px;  
     }
     
     .blockweb {
         flex-direction: column;
-        height: 260px;
+        height: 213px;
         justify-content: space-between;    
     }
 
     .formatlessons {   
-        margin-bottom:70px;   
-       
+        margin-bottom:25px;    
     }
+
     .formatlessons h2 {
-        font-size: 28px;
+        font-size: 26px;
     }
     
     .web {
-        font-size: 16px;
-        
+        font-size: 12px;    
     }
+
     .webfirst {
-        font-size:14px;
-        width: 240px;  
-        margin-top:0px;
+        font-size:10px;
+        width: 180px; 
+        margin-top: -5px;    
     }
 
     .knowledge {
       margin-top:80px;
-      font-size: 28px;
+      font-size: 26px;
       }
 
     .ulul {
-        max-width: 300px;
-        margin-top:22px ;
-        
+        max-width: 299px;
+        margin-top:22px ;   
     }
     
     li {
-        font-size: 13px; 
+        font-size: 12px; 
     }
 
     li:before {
