@@ -775,6 +775,56 @@ h2 {
     margin-left: 70px;
     max-width: 294px;
 }
+@media only screen and (min-width: 356px) and (max-width: 835px) {
+    .start-date h2 {
+        font-size: 32px;
+        font-weight: 700;
+    }
+    .price-line {
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .price {
+        font-size: 46px;
+        font-weight: 400;
+    }
+    .info-boxes-name {
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .info-boxes-content {
+        font-size: 10px;
+        font-size: 400;
+    }
+    .wrapper-start-date {
+      padding: 103px 15px;
+      }
+}
+@media only screen and (max-width: 375px) and (min-width: 300px){
+    .start-date h2 {
+        font-size: 26px;
+        font-weight: 700;
+    }
+    .price-line {
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .price {
+        font-size: 37px;
+        font-weight: 400;
+    }
+    .info-boxes-name {
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .info-boxes-content {
+        font-size: 10px;
+        font-size: 400;
+    }
+    .wrapper-start-date {
+      padding: 62px 15px;
+      }
+}
 .footer-container {
     background-color: black;
     /* width: 100%; */
