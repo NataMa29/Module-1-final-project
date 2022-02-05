@@ -352,51 +352,111 @@ li:before {
   font-weight: bold;
 }
 
-@media (max-width: 1279px) {
-  .format-wrapper {
-    min-width: 992px;
+@media screen and (min-width: 992px) and (max-width: 1279px) {
+    
+  .formatlessons {
+      margin-bottom: 60px;
   }
-  .formatlessons h2 {
+  .formatlessons h2{
     width: 386px;
-    font-size: 43px;
+    font-size:32px;
   }
   .blockweb {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    max-width: 880px;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    margin-top: -30px;
-  }
+    max-width: 570px;
+    justify-content: space-between;
+    
+    }
+  
+  
   .web {
-    font-size: 23px;
+      font-size: 15px;
+      
   }
   .webfirst {
-    font-size: 17px;
-    max-width: 270px;
+      font-size:11px;
+      max-width: 153px;
+      margin-top:0px;
+
   }
   .ulul {
-    max-width: 400px;
-    margin-top: 28px;
+      max-width: 384px;
+      margin-top:28px ;
+
   }
   .knowledge {
-    margin-top: 135px;
-    font-size: 43px;
+      margin-top:110px;
+      font-size: 32px;
+      
   }
   li {
-    line-height: 150%;
-    font-size: 17px;
+      line-height: 150%;
+      font-size:14px;
+    
   }
   li:before {
-    float: left;
-    margin-left: 0px;
-    margin-right: 6px;
-    content: "\2022";
-    font-weight: bold;
-  }
+        float: left;
+        margin-left: 0px; 
+        margin-right: 6px;
+        content: "\2022";
+        font-weight: bold;
+    }
 }
+@media screen and (min-width: 320px) and (max-width: 991px)  {
+     
+    .format {
+       margin-left: 60px;  
+    }
+    
+    .blockweb {
+        flex-direction: column;
+        height: 213px;
+        justify-content: space-between;    
+    }
+
+    .formatlessons {   
+        margin-bottom:25px;    
+    }
+
+    .formatlessons h2 {
+        font-size: 26px;
+    }
+    
+    .web {
+        font-size: 12px;    
+    }
+
+    .webfirst {
+        font-size:10px;
+        width: 180px; 
+        margin-top: -5px;    
+    }
+
+    .knowledge {
+      margin-top:80px;
+      font-size: 26px;
+      }
+
+    .ulul {
+        max-width: 299px;
+        margin-top:22px ;   
+    }
+    
+    li {
+        font-size: 12px; 
+    }
+
+    li:before {
+        float: left;
+        margin-left: 0px; 
+        margin-right: 3px;
+        content: "\2022";
+        font-weight: bold;
+    }
+  }
+
 
 @media (max-width: 991px) {
   .format {
@@ -816,7 +876,56 @@ h2 {
   margin-left: 70px;
   max-width: 294px;
 }
-
+@media only screen and (min-width: 356px) and (max-width: 835px) {
+    .start-date h2 {
+        font-size: 32px;
+        font-weight: 700;
+    }
+    .price-line {
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .price {
+        font-size: 46px;
+        font-weight: 400;
+    }
+    .info-boxes-name {
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .info-boxes-content {
+        font-size: 10px;
+        font-size: 400;
+    }
+    .wrapper-start-date {
+      padding: 103px 15px;
+      }
+}
+@media only screen and (max-width: 375px) and (min-width: 300px){
+    .start-date h2 {
+        font-size: 26px;
+        font-weight: 700;
+    }
+    .price-line {
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .price {
+        font-size: 37px;
+        font-weight: 400;
+    }
+    .info-boxes-name {
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .info-boxes-content {
+        font-size: 10px;
+        font-size: 400;
+    }
+    .wrapper-start-date {
+      padding: 62px 15px;
+      }
+}
 .footer-container {
   background-color: black;
   /* width: 100%; */
