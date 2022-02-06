@@ -413,7 +413,12 @@ li:before {
     .blockweb {
         flex-direction: column;
         height: 213px;
-        justify-content: space-between;    
+        justify-content: space-between;   
+       -webkit-box-orient: vertical;
+       -webkit-box-direction: normal;
+       -ms-flex-direction: column; 
+       -webkit-box-pack: justify;
+       -ms-flex-pack: justify;
     }
 
     .formatlessons {   
@@ -457,55 +462,6 @@ li:before {
     }
   }
 
-
-@media (max-width: 991px) {
-  .format {
-    margin-left: 60px;
-    min-width: 320px;
-  }
-  .blockweb {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    height: 260px;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-  }
-  .formatlessons {
-    margin-bottom: 70px;
-  }
-  .formatlessons h2 {
-    font-size: 28px;
-  }
-  .web {
-    font-size: 16px;
-  }
-  .webfirst {
-    font-size: 14px;
-    width: 240px;
-    margin-top: 0px;
-  }
-  .knowledge {
-    margin-top: 80px;
-    font-size: 28px;
-  }
-  .ulul {
-    max-width: 300px;
-    margin-top: 22px;
-  }
-  li {
-    font-size: 13px;
-  }
-  li:before {
-    float: left;
-    margin-left: 0px;
-    margin-right: 3px;
-    content: "\2022";
-    font-weight: bold;
-  }
-}
 
 .wrapper-programm {
   margin: 0 auto;
