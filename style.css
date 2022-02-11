@@ -552,19 +552,12 @@ h2 {
   margin-top: 9px;
 }
 
-.first-infobox {
-  width: 294px;
-  height: 111px;
+.infobox {
   max-width: 294px;
+  margin-right: 70px;
 }
 
-.second-infobox {
-  width: 322px;
-  height: 111px;
-  margin-left: 70px;
-  max-width: 294px;
-}
-@media only screen and (min-width: 356px) and (max-width: 835px) {
+@media only screen and (max-width: 1279px) and (min-width: 992px) {
     .start-date h2 {
         font-size: 32px;
         font-weight: 700;
@@ -576,6 +569,9 @@ h2 {
     .price {
         font-size: 46px;
         font-weight: 400;
+    }
+    .infobox {
+        max-width: 170px;
     }
     .info-boxes-name {
         font-size: 14px;
@@ -589,7 +585,7 @@ h2 {
       padding: 103px 15px;
       }
 }
-@media only screen and (max-width: 375px) and (min-width: 300px){
+@media only screen and (max-width: 991px) and (min-width: 320px) {
     .start-date h2 {
         font-size: 26px;
         font-weight: 700;
@@ -601,6 +597,9 @@ h2 {
     .price {
         font-size: 37px;
         font-weight: 400;
+    }
+    .infobox {
+        max-width: 170px;
     }
     .info-boxes-name {
         font-size: 12px;
